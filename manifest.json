@@ -1,0 +1,12 @@
+{
+  "name": "Serenity.",
+  "description": "Serenity is an online meditation utility.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["Javascript/background.js"]
+    }
+  },
+  "icons": { "16": "Image/icon_16.jpg", "128": "Image/icon_128.jpg" }
+}

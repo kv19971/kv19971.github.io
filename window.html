@@ -1,0 +1,156 @@
+<!DOCTYPE HTML5>
+<html manifest="med.appcache">
+	<head>
+		<!-- Latest compiled and minified CSS -->
+		<script src = "http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		
+		<script src = "Javascript/interface.js"></script>
+		<link rel="stylesheet" href="Css/style.css" > 
+		<title>SERENITY</title>
+		
+	</head>
+	<body>
+		<div class='container' id = 'body_container'>
+			<div class='row'>
+				<div class='col-md-2'></div>
+				<div class='col-md-8'>
+					<div class='heading'>
+						SERENITY
+					</div>
+				</div>
+				<div class='col-md-2'></div>
+			</div>
+			<div class='row'>
+				<div class = 'col-md-1'></div>
+				<div class='col-md-10'>
+					<div class='subcaption'>
+						ONLINE MEDITATION
+					</div>
+				</div>
+				<div class = 'col-md-1'></div>
+			</div>
+			<div class='row'>
+				<div class='col-md-2'></div>
+				<div class='col-md-8'>
+					<div class='caption'>
+						You spend time taking care of other things. Let this app take care of you. 
+					</div>
+				</div>
+				<div class='col-md-2'></div>
+			</div>
+			<div class='row'>
+				<div class='col-md-3'></div>
+				<div class='col-md-6'>
+					<div class='button_container'>
+						<a id='lm'>
+							<div class='button' id='lmore'>Learn More</div>
+						</a>
+					</div>
+				</div>
+				<div class='col-md-3'></div>
+			</div>
+			<div class='row'>
+				<div class='col-md-3'></div>
+				<div class='col-md-6'>
+					<div class='button_container'>
+						<a id='bg'>
+							<div class='button' id='begin_btn'>Begin</div>
+						</a>
+					</div>
+				</div>
+				<div class='col-md-3'></div>
+			</div>
+			
+		</div>
+		<div class='overlay' id = 'learnmore'>
+			<div class='container'>
+				<div class='row'>
+					<div class='col-md-1'></div>
+					<div class='col-md-11'><div class='overlay_heading'>More about meditation</div></div>
+				</div>
+				
+				<div class='row'>
+					<div class='col-md-2'></div>
+					<div class='col-md-10'><div class='overlay_text'>According to Buddhism, meditation is the art of transfroming your brain. It involves focusing your attention on something e.g. a ticking sound. 
+</div></div>
+				</div>
+				<div class='row'>
+					<div class='col-md-1'></div>
+					<div class='col-md-11'><div class='overlay_subheading'>But why?</div></div>
+				</div>
+				<div class='row'>
+					<div class='col-md-2'></div>
+					<div class='col-md-10'><div class='overlay_text'>According to research conducted by Harvard university, meditation increases your brain's gray matter. This will <b>reduce unwanted stress</b> and <b>make you smarter</b>. 
+
+</div></div></div>
+	<div class='row'>
+					<div class='col-md-1'></div>
+					<div class='col-md-11'><div class='overlay_subheading'>But how?</div></div>
+				</div>
+				<div class='row'>
+					<div class='col-md-2'></div>
+					<div class='col-md-10'><div class='overlay_text'>It's very simple. <b>Just click the button below to start.</b>
+</div></div>
+
+				</div>
+			
+				<div class='row'>
+				<div class='col-md-3'></div>
+				<div class='col-md-6'>
+					<div class='button_container'>
+						<a id='bg'>
+							<div class='button' id='begin_btn'>Begin</div>
+						</a>
+					</div>
+				</div>
+				<div class='col-md-3'></div>
+			</div>
+			</div>
+		</div>
+		<div class='overlay' id='begin_overlay'>
+			<div class='container'>
+				<div class='row'>
+					<div class='col-md-1'></div>
+					<div class='col-md-11'><div class='overlay_heading'>Start Your Session</div></div>
+				</div>
+				<div class='row'>
+					<div class='col-md-2'>
+						<div class='overlay_text'>Duration</div>
+					</div>
+					<div class='col-md-8'>
+						<div class='overlay_input'>
+							<input type="range" id="TimeSlider" min="2" max="470" step="1" >
+						</div>
+					</div>
+					<div class='col-md-2'>
+						<div class='overlay_text'><div id='time'>235 Minutes</div></div>
+					</div>
+				</div>
+				<div class='row'>
+					<div class='col-md-4'></div>
+					<div class='col-md-2'>
+						<div class='button_container'><div class='button' id='submit'>Begin</div></div>
+					</div>
+					<div class='col-md-6'></div>
+				</div>
+			</div>
+		</div>
+		<div class='overlay' id='black_overlay'>
+			<div class='container'>
+				<div class='row'>
+					<div class='col-md-12'>
+						<div class='black_overlay_text' id = 'rl'>Relax.</div>
+						<div class='black_overlay_text' id = 'tb'>Take a deep breath.</div>
+						<div class='black_overlay_text' id = 'ft'>Focus on the ticking.</div>
+						<div class='black_overlay_text' id = 'cl'>Close your eyes.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
