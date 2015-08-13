@@ -90,7 +90,7 @@ a:hover{
 }
 input[type=range] {
   -webkit-appearance: none;
-  width: auto;
+  width: 100%;
   margin: 0.5px 0;
 }
 input[type=range]:focus {
